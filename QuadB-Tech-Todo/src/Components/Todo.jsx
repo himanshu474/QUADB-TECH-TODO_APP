@@ -8,7 +8,7 @@ import {
 import { Delete } from "@material-ui/icons";
 import { toggleTodo, deleteTodo } from "../redux/todosSlice";
 
-const TodoPage = ({ id, text, completed }) => {
+const Todo = ({ id, text, completed }) => {
   const dispatch = useDispatch();
 
   const handleToggle = () => {
@@ -36,4 +36,4 @@ const TodoPage = ({ id, text, completed }) => {
   );
 };
 
-export default TodoPage;
+export default Todo;
