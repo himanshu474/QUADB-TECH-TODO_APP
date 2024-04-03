@@ -6,10 +6,6 @@
 npm install
 ```
 
-```bash
-npm run server
-```
-
 ### Run Vite Frontend
 
 React will run on http://localhost:3000
